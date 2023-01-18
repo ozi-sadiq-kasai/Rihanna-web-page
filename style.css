@@ -183,7 +183,7 @@ margin: 0 auto;
 
 .tour-button{
   padding: 5px;
-  background-color:lightblue;
+  background-color:rgb(132, 210, 235);
   color:#fff;
   border: none;
   font-weight: bold;
@@ -192,4 +192,38 @@ margin: 0 auto;
   margin: 0 auto;
 }
 
+/* Store styling */
+.shop-item{
+  margin-right: 150px;
+}
+
+.shop-item-title{
+  width: 100%;
+  font-size: 1.2em;
+  border: red solid 1px;
+  vertical-align: bottom;
+  
+
+}
+
+.shop-item-image{
+  height: 300px;
+  border-radius: 5px;
+}
+
+.shop-item-details{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.shop-item-price{
+padding-right: 10px;
+}
+
+.music-flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 

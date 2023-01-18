@@ -5,75 +5,83 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Artist</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Passions+Conflict&family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Passions+Conflict&family=Roboto&family=Tinos:ital@1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="container">
-    <nav>
+  <header class="main-header">
+    <nav class="nav main-nav">
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="store.html">Store</a></li>
         <li><a href="About.html">About</a></li>
       </ul>
     </nav>
-    <hr>
-    <h1>RIHANNA</h1>
+    <h1 class="artist-header artist-header-large">RIHANNA</h1>
   </header>
     <section>
       <h2>Music</h2>
-        <div>
-          <div>
-            <h4>Album 1</h4>
-            <img src="/image/2603359-rihanna-side-effects-r7-album-cover-617-409.jpg" alt="">
-            <div>
-              <span>&#8358;5000</span>
-              <button type="button">Add to cart</button>
+    <div class="music-flex">
+            <div class="shop-item">
+              <h5 class="shop-item-title">Album 1</h5>
+              <img class="shop-item-image" src="image/album cover.jpg" alt="Album Cover">
+                <div class="shop-item-details">
+                  <span class="shop-item-price">&#8358;5000</span>
+                  <button class="tour-button shop-item-button"type="button">Add to cart</button>
+                </div>
             </div>
-          </div>
-        
-          <div>
-            <h4>Album 2</h4>
-            <img src="/image/264x264.jpg" alt="">
-            <div>
-              <span>&#8358;5000</span>
-              <button type="button">Add to cart</button>
+          
+            <div class="shop-item">
+              <h5 class="shop-item-title">Album 2</h5>
+              <img class="shop-item-image" src="/image/264x264.jpg" alt="Album Cover">
+              <div class="shop-item-details">
+                <span class="shop-item-price">&#8358;5000</span>
+                <button class="tour-button shop-item-button"type="button">Add to cart</button>
+              </div>
             </div>
-          </div>
 
+            <div class="shop-item">
+              <h5 class="shop-item-title">Album 3</h5>
+              <img class="shop-item-image" src="/image/download (1).jpg" alt="">
+              <div class="shop-item-details">
+                <span class="shop-item-price">&#8358;5000</span>
+                <button class="tour-button shop-item-button"type="button">Add to cart</button>
+              </div>
+            </div>
+
+            <div class="shop-item">
+              <h4 class="shop-item-title">Album 4</h4>
+              <img class="shop-item-image" src="/image/download.jpg" alt="">
+              <div class="shop-item-details">
+                <span class="shop-item-price">&#8358;5000</span>
+                <button class="tour-button shop-item-button">Add to cart</button>
+              </div>
+            </div>
+          </div>
+      </section> 
+      <section>     
+        <h2>Merch</h2>
           <div>
-            <h4>Album 3</h4>
-            <img src="/image/download (1).jpg" alt="">
+            <img src="/image/images (1).jpg" alt="">
             <div>
-              <span>&#8358;5000</span>
+              <span>&#8358;15000</span>
               <button type="button">Add to cart</button>
             </div>
           </div>
-
           <div>
-            <h4>Album 4</h4>
-            <img src="/image/download.jpg" alt="">
+            <img src="/image/images.jpg" alt="">
             <div>
-              <span>&#8358;5000</span>
-              <button>Add to cart</button>
+              <span>&#8358;15000</span>
+              <button type="button">Add to cart</button>
             </div>
-          </div>
-    </section> 
-    <section>     
-      <h2>Merch</h2>
-        <div>
-          <img src="/image/images (1).jpg" alt="">
-          <div>
-            <span>&#8358;15000</span>
-            <button type="button">Add to cart</button>
-          </div>
-        </div>
-        <div>
-          <img src="/image/images.jpg" alt="">
-          <div>
-            <span>&#8358;15000</span>
-            <button type="button">Add to cart</button>
-          </div>
-        </div>
-    </section>
+
+    </div>
+          
+    
+  </section>
       
       
       
@@ -105,10 +113,10 @@
           <div><button type="button">Purchase</button></div>
       
     </section>
-  <footer>
-    <h3>RIHANNA</h3>
+  <footer class="main-footer">
+    <h3 class="name-footer">RIHANNA</h3>
     <nav>
-      <ul>
+      <ul class="main-footer-container">
         <li><a href="https://www.youtube.com/"><img src='/image/youtube-logo-png-3563.png' alt="youtube logo"></a></li>
         <li><a href="https://open.spotify.com/"><img src='/image/spotify-icon-png-15382.png' alt="spotify logo"></a></li>
         <li><a href="https://web.facebook.com/login/?_rdc=1&_rdr"><img src='/image/facebook-logo-png-4.png'alt="facebook logo"></a></li>
