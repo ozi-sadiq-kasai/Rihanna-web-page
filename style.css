@@ -187,6 +187,7 @@ margin: 0 auto;
   color:#fff;
   border: none;
   font-weight: bold;
+  cursor: pointer;
 }
 .tour-div{
   margin: 0 auto;
@@ -200,7 +201,6 @@ margin: 0 auto;
 .shop-item-title{
   width: 100%;
   font-size: 1.2em;
-  border: red solid 1px;
   vertical-align: bottom;
   
 
@@ -209,6 +209,7 @@ margin: 0 auto;
 .shop-item-image{
   height: 300px;
   border-radius: 5px;
+  
 }
 
 .shop-item-details{
@@ -224,6 +225,101 @@ padding-right: 10px;
 .music-flex{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
 }
 
+/* Section category styling */
+.section-category-header{
+  width: 100%;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+
+/* Cart Styling */
+.cart-column-headers{
+  display: flex;
+  justify-content: space-around;
+}
+.cart-column{
+  border-bottom: 1px solid black;
+  margin:0 auto;
+  padding: 10px;
+  margin-top: 10px;
+}
+/* .cart-flex{
+  display: flex;
+} */
+
+.cart-item{
+  /* display: block; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+
+.cart-item-image{
+  height: 100px;
+  margin-top: 20px;
+  border-radius: 3px;
+  width: 15%;
+}
+
+.cart-item-price{
+
+width: 40%;
+}
+
+.cart-item-item{
+  width: 20%;
+}
+.cart-item-number{
+  width: 10%;
+  padding: 3px;
+  border-radius: 1px;
+  border:none;
+}
+.cart-item-button{
+  width: 10%;
+  background-color: rgb(148, 142, 142);
+  color: #fff;
+  border: none;
+  padding: 3px;
+  border-radius: 1px;
+}
+
+/* TOTAL PURCHASE */
+.cart-total{
+  display: flex;
+  border-top: 2px solid black;
+  width: 90%;
+  justify-content: flex-end;
+  
+ 
+}
+.cart-total-price{
+ font-size: larger;
+ padding: 5px;
+ }
+.cart-total-total{
+ padding:5px 30px;
+ font-size: larger;
+ color: black;
+}
+.cart-purchase{
+  display: flex;
+  justify-content: flex-end;
+  width: 85%;
+  
+}
+
+.cart-button{
+background-color: green;
+border: none;
+color: #fff;
+cursor: pointer;
+border-radius: 3px;
+margin-top: 10px;
+}
